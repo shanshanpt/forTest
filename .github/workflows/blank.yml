@@ -40,4 +40,4 @@ jobs:
       - name: Run sh
         run: |
           sh my_echo.sh
-          echo ${{ secrets.TEST_TOKEN }}
+          echo "aaaa " ${{ secrets.TEST_TOKEN }} " bbbb"
